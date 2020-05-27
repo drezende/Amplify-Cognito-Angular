@@ -2,9 +2,9 @@ version: 0.2
 
 env:
   parameter-store:
-    ACCESS_KEY: "access-key-amplify-poc-dev"
-    SECRET_KEY: "secret-key-amplify-poc-dev1"
-    ENV: "amplify_ENV_dev"
+    ACCESS_KEY: "amplifydevkey"
+    SECRET_KEY: "amplifydevsec"
+    ENV: "amplifydev"
 phases:
   install:
     runtime-versions:
