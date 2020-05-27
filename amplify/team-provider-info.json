@@ -1,0 +1,77 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplifytest-dev-122104-authRole",
+            "UnauthRoleArn": "arn:aws:iam::527815038530:role/amplify-amplifytest-dev-122104-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::527815038530:role/amplify-amplifytest-dev-122104-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-amplifytest-dev-122104-deployment",
+            "UnauthRoleName": "amplify-amplifytest-dev-122104-unauthRole",
+            "StackName": "amplify-amplifytest-dev-122104",
+            "StackId": "arn:aws:cloudformation:us-east-1:527815038530:stack/amplify-amplifytest-dev-122104/af9d1020-a02d-11ea-a9c1-12e346dd5d0c",
+            "AmplifyAppId": "d32nj2ux4jm67h"
+        },
+        "categories": {
+            "auth": {
+                "amplifydevcognito": {}
+            },
+            "function": {
+                "amplifydevcognitoCustomMessage": {
+                    "REDIRECTURL": "http://yoursite.com/recuperarsenha",
+                    "EMAILSUBJECT": "Confirm you code",
+                    "EMAILMESSAGE": "Please confirm"
+                }
+            }
+        }
+    },
+    "homamplify": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplifytest-homamplify-124850-authRole",
+            "UnauthRoleArn": "arn:aws:iam::527815038530:role/amplify-amplifytest-homamplify-124850-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::527815038530:role/amplify-amplifytest-homamplify-124850-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-amplifytest-homamplify-124850-deployment",
+            "UnauthRoleName": "amplify-amplifytest-homamplify-124850-unauthRole",
+            "StackName": "amplify-amplifytest-homamplify-124850",
+            "StackId": "arn:aws:cloudformation:us-east-1:527815038530:stack/amplify-amplifytest-homamplify-124850/90841b80-a031-11ea-8534-0e1b8dfea4f7",
+            "AmplifyAppId": "d32nj2ux4jm67h"
+        },
+        "categories": {
+            "auth": {
+                "amplifydevcognito": {}
+            },
+            "function": {
+                "amplifydevcognitoCustomMessage": {
+                    "REDIRECTURL": "https://yourdomain.com/reset",
+                    "EMAILSUBJECT": "Recupera Senha",
+                    "EMAILMESSAGE": "Confirme seu codigo"
+                }
+            }
+        }
+    },
+    "amplifyprd": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplifytest-amplifyprd-125904-authRole",
+            "UnauthRoleArn": "arn:aws:iam::501752755646:role/amplify-amplifytest-amplifyprd-125904-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::501752755646:role/amplify-amplifytest-amplifyprd-125904-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-amplifytest-amplifyprd-125904-deployment",
+            "UnauthRoleName": "amplify-amplifytest-amplifyprd-125904-unauthRole",
+            "StackName": "amplify-amplifytest-amplifyprd-125904",
+            "StackId": "arn:aws:cloudformation:us-east-2:501752755646:stack/amplify-amplifytest-amplifyprd-125904/ffab5950-a032-11ea-84ac-0286ec33b064",
+            "AmplifyAppId": "d1cszonzs7r6b9"
+        },
+        "categories": {
+            "auth": {
+                "amplifydevcognito": {}
+            },
+            "function": {
+                "amplifydevcognitoCustomMessage": {
+                    "REDIRECTURL": "http://seusite.com/reset",
+                    "EMAILSUBJECT": "Link de confirmacao",
+                    "EMAILMESSAGE": "Segue seu link de confirmacao"
+                }
+            }
+        }
+    }
+}
