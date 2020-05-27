@@ -13,7 +13,7 @@ phases:
   build:
     commands:
       - echo Build started...
-      - assumes_role=`aws sts assume-role --role-arn "arn:aws:iam::$AMPLIFY_ACCOUNT_NUMBER_PROD:role/CrossAccountRole" --role-session-name int`
+      - assumes_role=`aws sts assume-role --role-arn "arn:aws:iam::$AMPLIFY_ACCOUNT_NUMBER_PROD:role/amplify-trsuted-account" --role-session-name int`
       - AWS_ACCESS_KEY_ID=`echo $assumes_role | jq -r .Credentials.AccessKeyId`
       - AWS_SECRET_ACCESS_KEY=`echo $assumes_role | jq -r .Credentials.SecretAccessKey`
       - AWS_SESSION_TOKEN=`echo $assumes_role | jq -r .Credentials.SessionToken`
